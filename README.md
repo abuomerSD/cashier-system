@@ -1,0 +1,1 @@
+This is a cashier system , for restaurents and small shops
