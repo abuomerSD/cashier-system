@@ -4,6 +4,7 @@
   "description": "This is a cashier system , for restaurents and small shops",
   "main": "index.js",
   "scripts": {
+    "start": "electron ./dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/abuomerSD/cashier-system/issues"
   },
-  "homepage": "https://github.com/abuomerSD/cashier-system#readme"
+  "homepage": "https://github.com/abuomerSD/cashier-system#readme",
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "typescript": "^5.4.5"
+  }
 }
